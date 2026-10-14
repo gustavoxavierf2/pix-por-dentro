@@ -1,0 +1,10 @@
+services:
+  rabbitmq:
+    image: rabbitmq:3.13-management
+    container_name: spi-rabbitmq
+    ports:
+      - "5672:5672"   # bancos se conectam aqui (AMQP)
+      - "15672:15672" # painel: http://localhost:15672 (guest / guest)
+    environment:
+      RABBITMQ_DEFAULT_USER: guest
+      RABBITMQ_DEFAULT_PASS: guest

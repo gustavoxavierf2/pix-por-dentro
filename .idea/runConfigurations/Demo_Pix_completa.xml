@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Demo Pix completa" type="CompoundRunConfigurationType">
+    <toRun name="RabbitMQ SPI" type="docker-deploy" />
+    <toRun name="Banco Pagador" type="SpringBootApplicationConfigurationType" />
+    <toRun name="Banco Recebedor" type="SpringBootApplicationConfigurationType" />
+    <method v="2" />
+  </configuration>
+</component>

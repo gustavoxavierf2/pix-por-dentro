@@ -1,0 +1,7 @@
+com\weekit\pix\recebedor\RabbitConfig.class
+com\weekit\pix\recebedor\Mensagens$Participante.class
+com\weekit\pix\recebedor\Mensagens$Pacs008.class
+com\weekit\pix\recebedor\Mensagens$Pacs002.class
+com\weekit\pix\recebedor\RecebedorService.class
+com\weekit\pix\recebedor\BancoRecebedorApplication.class
+com\weekit\pix\recebedor\Mensagens.class
